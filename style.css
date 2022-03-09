@@ -1,0 +1,91 @@
+body{
+    text-align:center;
+    margin:0;
+    padding-top: 800px;
+}
+
+.profile{
+    border-radius:50%;
+}
+#welcome{
+    position:absolute;
+    bottom:0;
+    background: linear-gradient(#32a873 0%,#6b32a8 100%);
+    display:table;
+    width:100%;
+    height:100%;
+}
+h1{
+    font-size:40px;
+    font-family:serif;
+    font-weight:300;
+}
+#name{
+    font-size:50px;
+    font-family: 'Dancing Script', cursive;
+}
+h2{
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 300;
+    color:red;
+}
+#bio{
+    font-family: 'Sansita Swashed', cursive;
+    padding:50px;
+}
+.line{
+    height:6px;
+    width:70px;
+    background-color:black;
+    margin:8px auto;
+}
+.parallax-inner{
+    display:table-cell;
+    vertical-align: middle;
+}
+.menu {
+  
+    position:fixed;
+    top:0px;
+   
+    z-index: 10;
+    cursor:pointer;
+    background:white;
+    width: 100%;
+}
+.links
+{
+  
+padding-left: 33px;
+padding-right: 25px;
+
+    font-family: fantasy;
+    font-size:20px;
+    display:inline;
+
+}
+
+a
+{
+    text-decoration: none;
+}
+.links:hover{
+    font-size:25px;
+    text-decoration: underline;
+}
+#writings a{
+    text-decoration: underline !important;
+    color: green !important;
+}
+#contact{
+    background: lightgray;
+}
+#contact iframe{
+    width:100%;
+}
+.contact_1 h3{
+    display:inline;
+}
+
+    
